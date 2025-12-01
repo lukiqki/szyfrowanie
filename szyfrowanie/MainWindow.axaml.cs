@@ -1,3 +1,4 @@
+using System.IO;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 
@@ -44,7 +45,16 @@ public partial class MainWindow : Window
         }
         else
         {
-            zaszyfrowanytext.Text = "wprowadź poprawny klucz";
+            zaszyfrowanytext.Text = tekstDoZaszyfrowania;
         }
+    }
+
+    private async void ZapiszClick(object sender, RoutedEventArgs e)
+    {
+        var oknozapisz = new SaveFileDialog();
+        
+        string? sciezka = await oknozapisz.ShowAsync(this);
+
+        File.WriteAllText(sciezka, zaszyfrowanytext.Text);
     }
 }

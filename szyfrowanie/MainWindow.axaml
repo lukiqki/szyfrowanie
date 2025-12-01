@@ -19,14 +19,14 @@
                                 <TextBox Height="300" x:Name="wprowadzonytext"/>
                         </StackPanel>
 
-                        <Button Grid.Column="1" Click="ZaszyfrujClick">Zaszyfruj</Button>
+                        <Button Grid.Column="1" Click="ZaszyfrujClick" Content="Zaszyfruj"/>
 
                         <StackPanel Grid.Column="2">
                                 <TextBlock Text="Tekst zaszyfrowany"/>
                                 <Border BorderThickness="3" CornerRadius="6" BorderBrush="White" Height="300">
                                         <TextBlock Text="" x:Name="zaszyfrowanytext"/>
                                 </Border>
-                                <Button HorizontalAlignment="Center">Zapisz szyfr w pliku</Button>
+                                <Button HorizontalAlignment="Center" Click="ZapiszClick" Content="Zapisz szyfr w pliku"/>
                         </StackPanel>
                 </Grid>
         </StackPanel>

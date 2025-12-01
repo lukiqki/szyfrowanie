@@ -71,3 +71,4 @@ D:\RIDER_PROJECTS\szyfrowanie\szyfrowanie\obj\Debug\net9.0\refint\szyfrowanie.dl
 D:\RIDER_PROJECTS\szyfrowanie\szyfrowanie\obj\Debug\net9.0\szyfrowanie.pdb
 D:\RIDER_PROJECTS\szyfrowanie\szyfrowanie\obj\Debug\net9.0\szyfrowanie.genruntimeconfig.cache
 D:\RIDER_PROJECTS\szyfrowanie\szyfrowanie\obj\Debug\net9.0\ref\szyfrowanie.dll
+D:\RIDER_PROJECTS\szyfrowanie\szyfrowanie\obj\Debug\net9.0\szyfrowanie.sourcelink.json
