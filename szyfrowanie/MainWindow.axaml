@@ -1,0 +1,35 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="szyfrowanie.MainWindow"
+        Title="szyfrowanie"
+        Width="900"
+        Height="400"
+        CanResize="False"
+        Background="#5F9EA0">
+    
+        <StackPanel>
+                <Grid ColumnDefinitions="*,Auto,*">
+                        <StackPanel Grid.Column="0">
+                                <TextBlock Text="Podaj wartość klucza"/>
+                                <TextBox Width="30" x:Name="kluczszyfrowania"/>
+                                <TextBlock Text="Podaj tekst"/>
+                                <TextBox Height="300" x:Name="wprowadzonytext"/>
+                        </StackPanel>
+
+                        <Button Grid.Column="1" Click="ZaszyfrujClick">Zaszyfruj</Button>
+
+                        <StackPanel Grid.Column="2">
+                                <TextBlock Text="Tekst zaszyfrowany"/>
+                                <Border BorderThickness="3" CornerRadius="6" BorderBrush="White" Height="300">
+                                        <TextBlock Text="" x:Name="zaszyfrowanytext"/>
+                                </Border>
+                                <Button HorizontalAlignment="Center">Zapisz szyfr w pliku</Button>
+                        </StackPanel>
+                </Grid>
+        </StackPanel>
+        
+        
+</Window>
