@@ -22,7 +22,7 @@ public partial class MainWindow : Window
 
             if (znak >= 'a' && znak <= 'z')
             {
-                zaszyfrowanyTekst[i] = (char)((((znak - 'a') + przesuniecie) % 26 + 26) % 26 + 'a');
+                zaszyfrowanyTekst[i] = (char)((znak - 'a' + przesuniecie + 26) % 26  + 'a');
             }
             else
             {
@@ -55,6 +55,6 @@ public partial class MainWindow : Window
         
         string? sciezka = await oknozapisz.ShowAsync(this);
 
-        File.WriteAllText(sciezka, zaszyfrowanytext.Text);
+        File.WriteAllText(sciezka, zaszyfrowanytext.Text );
     }
 }

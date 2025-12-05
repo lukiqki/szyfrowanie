@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("szyfrowanie")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bc01327cb602d1830e316a4e71754a2a913fbbe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df33d4894b091d109e716ba5193b3b93afbf8723")]
 [assembly: System.Reflection.AssemblyProductAttribute("szyfrowanie")]
 [assembly: System.Reflection.AssemblyTitleAttribute("szyfrowanie")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
